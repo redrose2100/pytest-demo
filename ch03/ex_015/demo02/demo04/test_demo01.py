@@ -1,6 +1,6 @@
 import sys
 
-print("in test_demo02 ...")
+print("in test_demo01 ...")
 for elem in sys.path:
     if "pytest-demo" in elem:
         print("sys.path:" + elem)
